@@ -1,5 +1,4 @@
-if game:IsLoaded()
-and game.PlaceId then
+if game:IsLoaded() and game.PlaceId then
     game.StarterGui:SetCore("SendNotification", {
       Title = "Sea Hub",
       Text = "This game is not supported, make sure to check #features channel that you executed on the corrected game",
